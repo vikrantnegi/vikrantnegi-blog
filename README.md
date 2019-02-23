@@ -1,6 +1,4 @@
-# SCSS Gulp Boilerplate
-
->Very Basic Sass(SCSS) boilerplate.
+# Personal Website
 
 ### Prerequisites
 * node
@@ -18,7 +16,7 @@ cd /path/to/project/this/folder
 npm install
 
 # Start server
-gulp watch   
+gulp watch
 
 # Start server and also minify the created CSS files
 gulp min or npm run min (if no global gulp)
