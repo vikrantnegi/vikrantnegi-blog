@@ -20,7 +20,7 @@ var paths = {
 
 function styles() {
   return gulp
-    .src(paths.scripts.src)
+    .src(paths.styles.src)
     .pipe(sourcemaps.init())
     .pipe(sass({ outputStyle: 'expanded' }).on('error', sass.logError))
     .pipe(
@@ -29,7 +29,7 @@ function styles() {
         cascade: false,
       }),
     )
-    .pipe(sourcemaps.write('.'))
+    .pipe(sourcemaps.write('./css'))
     .pipe(gulp.dest('./css'));
 }
 

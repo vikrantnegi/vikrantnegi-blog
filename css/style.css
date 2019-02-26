@@ -55,15 +55,6 @@ main {
   display: block;
 }
 
-/**
- * Correct the font size and margin on `h1` elements within `section` and
- * `article` contexts in Chrome, Firefox, and Safari.
- */
-h1 {
-  font-size: 2em;
-  margin: 0.67em 0;
-}
-
 /* Grouping content
    ========================================================================== */
 /**
@@ -377,7 +368,7 @@ html {
 }
 
 body {
-  font-family: "Avenir", sans-serif;
+  font-family: "Source Sans Pro", sans-serif;
   font-size: 14px;
   font-weight: 400;
   color: #4c4c4d;
@@ -387,7 +378,7 @@ body {
 
 h1, h2, h3, h4, h5, h6 {
   font-family: inherit;
-  font-weight: 900;
+  font-weight: 700;
   line-height: 1.1;
   margin: 0 0 1.5rem 0;
 }
@@ -531,7 +522,7 @@ figure {
   position: relative;
   border-radius: 0;
   padding: 6px 12px;
-  font-family: "Avenir", sans-serif;
+  font-family: "Source Sans Pro", sans-serif;
   font-size: 14px;
   font-weight: normal;
 }
@@ -604,9 +595,14 @@ input[type="checkbox"] {
   letter-spacing: 0.1em;
 }
 
-.header-block h1 {
+.head-title {
   font-size: 5rem;
   font-family: 'Source Sans Pro', sans-serif;
+}
+
+.head-sub {
+  font-weight: 400;
+  letter-spacing: 0.05em;
 }
 
 .container {

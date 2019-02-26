@@ -45,7 +45,7 @@ $img-path-url: "../imgs";
 //== Typography
 //
 //## Font, line-height, and color for body text, headings, and more.
-$font-family-primary  : 'Avenir', sans-serif;
+$font-family-primary  : 'Source Sans Pro', sans-serif;
 $font-family-secondary: 'Georgia', serif;
 $font-size-base       : 14px;
 $line-height-base     : 1.428571429; /* 20/14*/
@@ -60,7 +60,7 @@ $font-size-h6         : 1.2rem;
 
 /*** By default, this inherits from the `<body>`.*/
 $headings-font-family: inherit !default;
-$headings-font-weight: 900 !default;
+$headings-font-weight: 700 !default;
 $headings-line-height: 1.1 !default;
 $headings-color      : inherit !default;
 
