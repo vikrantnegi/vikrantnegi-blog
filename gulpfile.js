@@ -3,7 +3,6 @@
 
 var gulp = require('gulp');
 var sass = require('gulp-sass');
-var autoprefixer = require('gulp-autoprefixer');
 var sourcemaps = require('gulp-sourcemaps');
 var imagemin = require('gulp-imagemin');
 var cleanCSS = require('gulp-clean-css');
@@ -23,12 +22,6 @@ function styles() {
     .src(paths.styles.src)
     .pipe(sourcemaps.init())
     .pipe(sass({ outputStyle: 'expanded' }).on('error', sass.logError))
-    .pipe(
-      autoprefixer({
-        browsers: ['last 4 versions'],
-        cascade: false,
-      }),
-    )
     .pipe(sourcemaps.write('./'))
     .pipe(gulp.dest('./css'));
 }
