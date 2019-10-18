@@ -1,0 +1,4 @@
+This is a Brave Rewards publisher verification file.
+
+Domain: vikrantnegi.com
+Token: 4ec0a4db23cde91654180c45868d52262cddddb53241ffd9d4575a6b7952fc08
